@@ -32,8 +32,8 @@ This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.
 List of commands this console current supports:
 * `EOF` - exits console 
 * `quit` - exits console
-* `<emptyline>` - overwrites default emptyline method and does nothing
-* `create` - Creates a new instance of`BaseModel`, saves it (to the JSON file) and prints the id
+* `<emptyline>` - overwrites default emptyline method and does nothing.
+* `create` - Creates a new instance of`BaseModel`, saves it (to the JSON file) and prints the id.
 * `destroy` - Deletes an instance based on the class name and id (save the change into the JSON file). 
 * `show` - Prints the string representation of an instance based on the class name and id.
 * `all` - Prints all string representation of all instances based or not on the class name. 
@@ -102,8 +102,8 @@ TestBaseModel class:
 * `def setUpClass(cls)` - Set up for the doc tests
 * `def test_pep8_conformance_place(self)` - Test that models/place.py conforms to PEP8.
 * `def test_pep8_conformance_test_place(self)` - Test that tests/test_models/test_place.py conforms to PEP8.
-* `def test_place_module_docstring(self)` - Test for the place.py module docstring
-* `def test_place_class_docstring(self)` - Test for the Place class docstring
+* `def test_place_module_docstring(self)` - Test for the place.py module docstring.
+* `def test_place_class_docstring(self)` - Test for the Place class docstring.
 
 [/test_models/test_review.py](/tests/test_models/test_review.py) - Contains the TestReviewDocs class:
 * `def setUpClass(cls)` - Set up for the doc tests
